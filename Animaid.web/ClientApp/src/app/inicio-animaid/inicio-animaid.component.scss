@@ -1,0 +1,58 @@
+@import '../../variables/variableBoots.scss';
+
+.fontHead {
+  font-family: "Lobster", cursive;
+}
+
+.fontHead_Normal {
+  color: black;
+  font-family: "PT Serif", serif;
+}
+
+.zoom {
+  transition: 1.5s ease;
+  -moz-transition: 1.5s ease;
+  /* Firefox */
+  -webkit-transition: 1.5s ease;
+  /* Chrome - Safari */
+  -o-transition: 1.5s ease;
+  /* Opera */
+
+  &:hover {
+    z-index: 10;
+    transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    /* Firefox */
+    -webkit-transform: scale(1.05);
+    /* Chrome - Safari */
+    -o-transform: scale(1.05);
+    /* Opera */
+    -ms-transform: scale(1.05);
+    /* IE9 */
+  }
+}
+
+.zoom2 {
+  transition: 1.5s ease;
+  -moz-transition: 1.5s ease;
+  /* Firefox */
+  -webkit-transition: 1.5s ease;
+  /* Chrome - Safari */
+  -o-transition: 1.5s ease;
+  /* Opera */
+
+  &:hover{
+    z-index: 10;
+    transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    /* Firefox */
+    -webkit-transform: scale(1.3);
+    /* Chrome - Safari */
+    -o-transform: scale(1.3);
+    /* Opera */
+    -ms-transform: scale(1.3);
+    /* IE9 */
+  }
+}
+
+/**/
